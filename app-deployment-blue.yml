@@ -17,6 +17,7 @@ spec:
       containers:
       - name: bankapp
         image: sandhyadev836/bankapp:blue # Adjust the image tag for the blue version
+        imagePullPolicy: Always # Always pull the latest image from the registry
         ports:
         - containerPort: 8080
         env:
