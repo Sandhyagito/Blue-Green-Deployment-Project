@@ -92,6 +92,8 @@ This project showcases how Blue-Green Deployment can be used to ensure zero down
 ![Jenkins Build Success 1](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Jenkins-build-success1.png)
 ![Nexus](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Nexus.png)
 ![Sonarqube Analysis](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Sonarqube%20analysis.png)
+![Prometheus](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Prometheus.png)
+![Grafana](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Grafana.png)
 
 ## Hashnode Blog url
 https://sandhyaops.hashnode.dev/blue-green-deployment-on-amazon-eks-using-cicd-pipeline
