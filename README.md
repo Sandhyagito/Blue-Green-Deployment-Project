@@ -1,5 +1,9 @@
 # Blue-Green Deployment on Amazon EKS Using CI/CD Pipeline 🟦🟩 
 
+## Architecture Diagram
+
+![Blue-Green Deployment Diagram](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Blue-Green%20Deploy-Diagram.png)
+
 ## Introduction
 Blue-Green Deployment is a deployment strategy that ensures seamless updates with zero downtime by running two identical environments:
 
@@ -73,11 +77,21 @@ Trivy: Conducts vulnerability scans.
 Docker & DockerHub: Facilitates containerization.
 AWS EKS: Manages Kubernetes clusters.
 
-Accessing the Application
+## Accessing the Application
 Once the pipeline completes successfully, the application is accessible via the LoadBalancer's external IP or DNS URL.
+
+![Blue-Green Deployment Diagram](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/web%20application.png)
 
 ## Conclusion
 This project showcases how Blue-Green Deployment can be used to ensure zero downtime during application updates. By using Jenkins, Terraform, SonarQube, and Nexus, the CI/CD pipeline provides an automated, secure, and efficient deployment solution suitable for production environments.
+
+## Ouputs
+
+![Webapps Namespace](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Webapps-namespace.png)
+![Jenkins Build Success](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Jenkins-build-success.png)
+![Jenkins Build Success 1](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Jenkins-build-success1.png)
+![Nexus](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Nexus.png)
+![Sonarqube Analysis](https://github.com/Sandhyagito/Blue-Green-Deployment-Project/blob/main/ArchitecturalDiagrams/Sonarqube%20analysis.png)
 
 ## Hashnode Blog url
 https://sandhyaops.hashnode.dev/blue-green-deployment-on-amazon-eks-using-cicd-pipeline
