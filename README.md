@@ -78,3 +78,8 @@ Once the pipeline completes successfully, the application is accessible via the 
 
 ## Conclusion
 This project showcases how Blue-Green Deployment can be used to ensure zero downtime during application updates. By using Jenkins, Terraform, SonarQube, and Nexus, the CI/CD pipeline provides an automated, secure, and efficient deployment solution suitable for production environments.
+
+## Hashnode Blog url
+https://sandhyaops.hashnode.dev/blue-green-deployment-on-amazon-eks-using-cicd-pipeline
+
+
